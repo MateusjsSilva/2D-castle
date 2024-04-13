@@ -15,10 +15,15 @@
      * Parameters:
      *   - x1, y1: The coordinates of the bottom-left vertex of the square.
      *   - x2, y2: The coordinates of the top-right vertex of the square.
-     *   - colorR, colorG, colorB: The RGB color components of the square (0.0 to 1.0).
+     *   - colorR, colorG, colorB: The RGB color components of the square
      */
     void drawSquare(float x1, float x2, float y1, float y2, float colorR, float colorG, float colorB)
     {
+        //Converting RGB values ??from 0-255 to the range 0.0 to 1.0
+        colorR /= 255.0;
+        colorG /= 255.0;
+        colorB /= 255.0;
+
         // Set the color of the square
         glColor3f(colorR, colorG, colorB);
 
@@ -30,4 +35,5 @@
         glVertex2f(x1, y2); // Top left vertex
         glEnd();
     }
+
 #endif
