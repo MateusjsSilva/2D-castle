@@ -13,5 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Arquivos de Cabeçalho\config">
+      <UniqueIdentifier>{8e40e8c1-390c-4545-a5d0-918d8332ee76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\shapes">
+      <UniqueIdentifier>{4384096d-7116-48f6-91d0-2944150939b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h">
+      <Filter>Arquivos de Cabeçalho\config</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Arquivos de Origem\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Arquivos de Origem\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Arquivos de Origem\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Arquivos de Origem\shapes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
 </Project>
