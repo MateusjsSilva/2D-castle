@@ -1,15 +1,16 @@
 # 2D Castle
-Este repositório contém um projeto de exemplo em OpenGL para desenhar um castelo em 2D.
 
-## Captura de tela
+This repository contains a sample OpenGL project to draw a 2D castle.
+
+## Screenshot
 <div align="center">
   <img src="img/castle.png" alt="2D castle img" height="400em">
 </div>
 
-## Contribuição
+## Contribution
 
-Sinta-se à vontade para abrir issues ou enviar pull requests. Toda contribuição é bem-vinda!
+Feel free to open issues or submit pull requests. All contributions are welcome!
 
-## Licença
+## License
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
